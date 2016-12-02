@@ -3,3 +3,5 @@ const router = express.Router();
 const jwt = require('jwt-simple');
 const User = require('../models/UserModel');
 const bcrypt = require('bcrypt');
+
+module.exports = router;
